@@ -35,7 +35,7 @@ I2C_NUM_COLS = 16
 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)
 lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS)
 
-#THINGSPEAK - Alternatively AWS would handle this better but MQTT is faster for demo purposes.
+#THINGSPEAK - Alternatively AWS MQTT would handle this better but ThingSpeak MQTT is faster for programming and demo purposes.
 MQTT_CLIENT_ID = ""
 MQTT_USERNAME = ""
 MQTT_PASSWD = ""
