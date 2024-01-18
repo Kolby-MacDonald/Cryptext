@@ -1,10 +1,6 @@
 # --------------------------------------- #
 #      CREATED BY KOLBY MACDONALD         #
 # --------------------------------------- #
-#    This is an asymmetric encryption and #
-# decryption tool that has more possible  #
-# combinations than atoms in the oberser- #
-# able universe.                          #
 #     The three layers of encryption are; #
 # A random alpha-numeric character set,   #
 # the encrypted message and the encryp-   #
